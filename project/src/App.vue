@@ -1,7 +1,8 @@
 <template>
-    <page-index />
+    <router-view />
 </template>
 
 <script setup>
-import PageIndex from "@/components/PageIndex.vue";
+import { RouterView } from 'vue-router'
+// import PageIndex from "@/components/PageIndex.vue";
 </script>
